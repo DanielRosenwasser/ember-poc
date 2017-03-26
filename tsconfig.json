@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "strict": true,
+        "baseUrl": "./",
+        "typeRoots": [
+            "./types"
+        ],
+        "types": ["ember"],
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true
+    },
+    "files": [
+        "./sample.ts"
+    ]
+}
