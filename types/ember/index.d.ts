@@ -2547,5 +2547,5 @@ import Em = Ember;
  */
 
 declare module "ember" {
-    export default Ember;
+    export = Ember;
 }

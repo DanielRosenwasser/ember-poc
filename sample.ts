@@ -1,5 +1,7 @@
 // Mix classes & .create()
 
+import Ember from "ember";
+
 // Try mixing and matching usage of each classlike entity
 // by adding/removing a 'C' from the end of the variable.
 // Play around with the hierarchy. Let me know what breaks.

@@ -6,11 +6,11 @@
         "noImplicitThis": true,
         "strictNullChecks": true,
         "strict": true,
+        "allowSyntheticDefaultImports": true,
         "baseUrl": "./",
-        "typeRoots": [
-            "./types"
-        ],
-        "types": ["ember"],
+        "paths": {
+            "*": ["types/*"]
+        },
         "forceConsistentCasingInFileNames": true,
         "declaration": true
     },
